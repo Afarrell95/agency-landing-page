@@ -7,6 +7,44 @@
 main{
     background-image: url(./images/desktop/image-header.jpg);
     background-repeat: no-repeat;
-  background-position: center;
+    background-position: center;
     height: 100vh;
+}
+
+nav{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav li{
+    font-family: 'Barlow', sans-serif;
+}
+
+section{
+    display: grid;
+    
+}
+
+.contact-btn{
+    color: white;
+    font-family: 'Fraunces', serif;
+}
+
+.main-section-header{
+    color: white;
+    font-size: 4rem;
+    font-family: 'Fraunces', serif;
+}
+
+.testimonials{
+    height: 100%;
 }
